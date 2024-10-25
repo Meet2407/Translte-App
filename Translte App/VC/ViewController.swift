@@ -99,7 +99,7 @@ class ViewController: UIViewController {
                         if let translatedText = jsonResponse.trans.title as? String {
                             self?.spainshdisp.text = translatedText
                         } else {
-                            self?.spainshdisp.text = "Translation failed."
+                            self?.spainshdisp.text = "Translation failed. not give the data"
                         }
                     } else {
                         self?.spansihLbl.text = "Translation failed. Check the response format."
