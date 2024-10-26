@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     var pickerView: UIPickerView!
     var activeTextField: UITextField?
     
-    let languages = ["hi", "en", "fr", "gu"]
+    let languages = ["hi", "en", "fr", "gu","zh"]
     var sourceLanguage: String = "en"
     var targetLanguage: String = "hi"
     var lastSelectedButton: UIButton?
